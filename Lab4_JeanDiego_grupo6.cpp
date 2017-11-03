@@ -40,6 +40,7 @@ int main(){
 			getch();
 
 			cout<<"HOLA MUNDO"<<endl;
+			cout<<"PENE"<<endl;
 
 			}
 			 break;
