@@ -9,7 +9,7 @@
 using namespace std;
 int main(){
 	initscr();
-	vector<player>jugadores;
+//	vector<player>jugadores;
 	echo();
 	printw("Bienvenido al BuscaMinas");
 	getch();
@@ -32,7 +32,17 @@ int main(){
 			printw("Introduzca la contrasena:");
 			refresh();
 			getnstr(contra,100);
-			}break;
+		
+
+			printw("----PLAY---");
+			refresh();
+
+			getch();
+
+			cout<<"HOLA MUNDO"<<endl;
+
+			}
+			 break;
 			case 'b':{
 
 			char nombre[100];
@@ -55,10 +65,10 @@ int main(){
 			string Usuario=usuario1;
 			string Contra=contra1;
 			
-			player* objeto=new player(Nombre,Usuario,Contra);
-			cout<<"nombre"<<objeto->getNombre()<<endl;
+			//player* objeto=new player(Nombre,Usuario,Contra);
+			//cout<<"nombre"<<objeto->getNombre()<<endl;
 			//jugadores.push_back(objeto);
-			delete objeto;	
+			//delete objeto;	
 			}break;
 		}
 			
